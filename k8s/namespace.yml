@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: novatech-prod
+  labels:
+    team: infrastructure
+    managed-by: spectr0n
