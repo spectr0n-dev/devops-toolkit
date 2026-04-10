@@ -1,0 +1,15 @@
+If you're reading this, I'm either dead or compromised.
+
+My final notes are encrypted in my public gist — the one labeled
+"encrypted backup notes". You'll need:
+
+  1. My PGP public key (it's in the README of this repo, main branch)
+  2. The passphrase (you know where to look — think about what I
+     wrote on my blog about hiding things in plain sight)
+
+The truth about NovaTech needs to come out.
+
+Do the right thing.
+
+— spectr0n (Tomáš Černý)
+   Prague, March 2026
