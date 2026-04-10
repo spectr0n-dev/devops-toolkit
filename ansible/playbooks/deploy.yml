@@ -1,0 +1,30 @@
+---
+- name: Deploy application stack
+  hosts: production
+  become: yes
+  vars:
+    app_version: "{{ lookup('env', 'APP_VERSION') }}"
+    deploy_user: spectr0n
+
+  tasks:
+    - name: Pull latest Docker images
+      docker_image:
+        name: "registry.novatech.internal/app:{{ app_version }}"
+        source: pull
+
+    - name: Deploy with docker-compose
+      docker_compose:
+        project_src: /opt/app
+        state: present
+        pull: yes
+
+    - name: Run database migrations
+      command: docker exec app-web python manage.py migrate
+      register: migration_result
+
+    - name: Verify deployment
+      uri:
+        url: "https://{{ inventory_hostname }}/health"
+        status_code: 200
+      retries: 5
+      delay: 10
