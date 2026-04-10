@@ -1,0 +1,63 @@
+# DevOps Toolkit
+
+Personal collection of automation scripts, Ansible playbooks, and Terraform configs.
+
+## Author
+**spectr0n** — Senior Sysadmin @ NovaTech Solutions, Prague
+
+- Email: spectr0n@proton.me
+- Blog: https://spectr0n-dev.github.io
+- PGP: See below
+
+## Quick Start
+```bash
+git clone https://github.com/spectr0n-dev/devops-toolkit
+cd devops-toolkit
+chmod +x scripts/*.sh
+```
+
+## PGP Public Key
+
+If you need to send me something encrypted:
+
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mQENBGnY1vcBCADJ1EvuyCw2wDXw4H437LUkNUBwJZj+KwAOmMnSxBddQA8CVyWt
+K+Qaexj72DHCqkN9wyE3LdfaG4kIkccuZElaMklrSbAGx23Sd0pRvy3zJaBE/GdV
+f+naJLRlVTnYGELASVwUIsMjmjfvXu22BelescgedzvqdXUBpqmE/lZ7bghToeCN
+lsNKNcTS2bcBXdrpFGu0NNxL/EP65/CLSqTPVMypqvksbBqTnDtuy0sB8SuU6L9N
+ow5Wist1BpQl3xGh+3wSQUTUzUZIJhLRLZy30NTJU+Q+jGmtXtHfa1imDaEi1VRC
+/avlM6rrYuMTGwkc4dornQsznrmZ/tjdMORbABEBAAG0HXNwZWN0cjBuIDxzcGVj
+dHIwbkBwcm90b24ubWU+iQFPBBMBCgA5FiEExgOowHDiVih4w2DuOxua1p8aBDcF
+AmnY1vcDGy8EBQsJCAcCBhUKCQgLAgQWAgMBAh4BAheAAAoJEDsbmtafGgQ3EEEH
+/3iPBQRBiO7aMDZwVnG79k2n7xojVvhfELDI+1VXYL06C8OuKcxGauGFkGQ8Fdl8
+ppWx9axZBCf9lFnPlxMlQKx7Py+rD6BYVc+TYB9JtibT2UhlI3QB4ZsPWzoq2dEG
+QPGNuDmeKF6eO5hO6TynsYVGB3GsayKgDXXmFN1qYUQbA6MpysLA7PqbvwYSq0cd
+RXGztJBaP8pRPKqTik5NbkcH/RLjxLdMDxUR6gTOAmM2bqKd3ENK9e9BB13I6qVP
+a8N/4kJO0QLrNoCWU+r1mlH5Gw/gpEgkXO9XV1zgVRl8cNid5ImtTcQLqA5+Ut4M
+BcmvGmXoOEaPqFacI3egcYm5AQ0EadjW9wEIAMc3c3E5csMM77WipNcfsUI2CnMd
+kGDR65i97oRjT3lBcFOEbwNXFssa0rS6CUuLZOFbKoc1zzdMsWnYhIm3dCEzDOM4
+FHw/gLm8S6n9F5KSdAQWW9O3W+w2A5NnaBEU1wiaaax2+DUMoRK7T+pHBnJNDHmr
+8eB2UtdfwgZcbcuXDaYkV3/4fldqq3Ycke60lFzl3/IiwozmXJB8gfQek0J/YG2c
++3BmzedTDbu4IuQaDs45vMCqlBfY1H4nAy6YMztqIIw/krxHl1WjPbTdScIV5S/n
+JRvGmnyY2QsiDlKNUMDBIeYMRfSfRe1/pZP8iu9MM3l4KvnaQJWutVEwDyEAEQEA
+AYkCbAQYAQoAIBYhBMYDqMBw4lYoeMNg7jsbmtafGgQ3BQJp2Nb3AhsuAUAJEDsb
+mtafGgQ3wHQgBBkBCgAdFiEEzhrikLIUcfsqjqkT3nQ51G7VSdgFAmnY1vcACgkQ
+3nQ51G7VSdh1JQf/XRRALTiTv0SkhRKaYnSKsjrDBr8m2fEXPLuH+UZ3zan++hlg
+sn3tcvw18Kb7H8pGti76UE8hAUn3Q8HWF6Ibm/z6MJmV46HhZp2PbijQcsDnQ26U
+EcxHv1+Cf+3RTYP3iXJrCgpJRAw6VZiB7JQDQtuNLoaRyIQ7U8BSXGvLbAlEFAIp
+XSByrAxpkpYnHY0nH1cqQXoZQgWhKkHXHe9pRCrCvFkH1950sKS7Pk5iO64rQnBo
+9UTRB3pGd2sdSDtQBt1HKAJ6BgPQbr0ytz8Grq7nilpMl7GqXLw76ldy7exPKr2M
+gYq1U4M4WZ25gOGnOuKMK/1c/7k+bSkFKNMO4f9qB/93VYRpf78X5Qy8HT+iL/xD
+a0fYgTAAQ+STU5XTvj1iZUOtVTPcspYuobGPRzm8khAwcHXLbcdv8YmOyguFg4kw
+jxUoIoNldUwL1tRZycN/qrZQ3p+LRvWO2tjX3pwh1tJLLK+aqhoViTpqJe59TdcB
+9Y1R5VdwR3+VB+9dynl0JCdmFcYzEaSCfYz8G1DAt5Setou6jC1zeBOmhyRkZ1Wa
+0CsvNwh6epYHZBwmG/RaQmoBF3y3H85Ixn2ROn3XsoE28E1fOnhSuTp+SVp3nPgQ
+d1axPjej7mk9CDoqsKF0cbv5Fn3xrxQ9gt+DGNP6mqGJooGTWw8l2k+m5+24XvEf
+=Kfj+
+-----END PGP PUBLIC KEY BLOCK-----
+```
+
+## License
+MIT
